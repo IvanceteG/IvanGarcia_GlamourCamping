@@ -1,0 +1,999 @@
+body{
+    box-sizing: border-box;  
+    font-family: "Inter", serif;
+    margin: 0;
+  }
+  
+  a{
+    font-size:16px;
+  }
+  
+  #head{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 925px;
+    width: 1920px;
+    max-width: 1920px;
+    max-height: 925px;
+    background-image: url(images/victor-larracuente-JQfYGhUcDSg-unsplash\ 1.png);
+  }
+  
+  .logo{
+    width: 152.13px;
+    height: 110px;
+    margin-top: 30px;
+    margin-left: 115px;
+  }
+  
+  #menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 115px;
+  }
+  
+  #menu button{
+    width: 151px;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    margin-top: 70px;
+    left: 1655px;
+    margin-left: 49.5px;
+    background-color: transparent;
+  }
+  
+  #menu nav ul{
+    padding: 0;
+    width: 395px;
+    height: 35px;
+    margin-top: 70px;
+    left: 1210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #menu nav ul li{
+    list-style: none;
+  }
+  
+  #menu nav ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 32px;
+  }
+  
+  #menu button:hover{
+    cursor: pointer;
+  }
+  
+  #menu button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16.94px;
+  }
+  
+  .flechas{
+    height: 40px;
+    width: 40px;
+    margin-top: 320px;
+    border: 1px solid #FFFFFF;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #flecha_derecha{
+    margin-left: 110px;
+    opacity: 30%;
+  }
+  
+  #flecha_izquierda{
+    margin-right: 110px;
+  }
+  
+  .flechas:hover{
+    cursor: pointer;
+  }
+  
+  #cambiapagina{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #cambiapagina_cont{
+    display: flex;
+  }
+  
+  #contenido p{
+    color: #FFFFFF;
+    margin-top: 156px;
+    margin-left: 60px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  
+  
+
+  #contenido h3{
+    color: #FFFFFF;
+    width: 505px;
+    height: 206px;
+    margin-top: 10px;
+    margin-left: 62px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+  }
+  
+  .videoboton{
+    width: 241px;
+    margin-left: 60px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  #play{
+    border: 1px solid #FFFFFF;
+    border-radius: 100%;
+    width: 43px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #play:hover{
+    cursor: pointer;
+  }
+  
+  #play img{
+    width: 14.56px;
+    max-width: 14.56px;
+    height: 11.79px;
+    max-height: 11.79px;
+  }
+  
+  body{
+    color: #2D2D2D;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    font-optical-sizing: auto; 
+}
+
+.titolarticle{
+    color: #345E40; 
+    text-align: center; 
+    border-bottom: 2px solid #97A483; 
+    padding-top: 10px; 
+    padding-bottom: 10px;    
+}
+.citas{
+    background-color: #F7F2DB; 
+    border: 2px solid #97a48388; 
+    border-radius: 10px; 
+    padding: 20px;
+}
+
+
+
+
+  .videoboton > a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 5px;
+  }
+  
+  main{
+    width: 1920px;
+    height: 6345px;
+    background-color: #F7F2DB;
+    position: absolute;
+  }
+  
+  #about{
+    width: 72px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.2px;
+    margin-top: 186px;
+    margin-left: 923px;
+  }
+  
+  #about > p{
+    text-align: center;
+    color: #97A483;
+  } 
+  
+  #contenido_activity p{
+    width: 1088px;
+    height: 130px;
+    color: #555555;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 27px;
+    margin-left: 416px;
+    font-weight: 500;
+  }
+  
+  #contenido_activity h2{
+    text-align: center;
+    width: 520px;
+    height: 122px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60.51px;
+    margin-top: 40px;
+    margin-left: 699px;
+  }
+  
+  #imagenes{
+    height: 100px;
+    margin-left: 295px;
+    margin-right: 295px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #imagenes hr{
+    width: 95px;
+    color: #BFBFBF;
+    rotate: -90deg; 
+  }
+  
+  #imagenes div p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 18px;
+  }
+  
+  .imagenes_clase{
+    margin-top: 20px;
+  }
+  
+  .imagenes_clase img{
+    margin-left: 19px;
+  }
+  
+  #caravana1 img{
+    width: 104px;
+    height: 59px;
+  }
+  
+  #caravana1 p{
+    width: 142px;
+    height: 30px;
+  }
+  
+  #caravana2 img{
+    width: 97px;
+    height: 59px;
+  }
+  
+  #caravana2 p{
+    width: 150px;
+    height: 30px;
+  }
+  
+  #tienda img{
+    width: 79px;
+    height: 59px;
+  }
+  
+  #tienda p{
+    width: 117px;
+    height: 30px;
+  }
+  
+  #sitios img{
+    width: 102.16px;
+    height: 62.9px;
+  }
+  
+  #sitios p{
+    width: 129px;
+    height: 30px;
+  }
+  
+  #cabaña p{
+    width: 143px;
+    height: 30px;
+  }
+  
+  #cabaña img{
+    width: 62px;
+    height: 59px;
+  }
+  
+  #imagenes2{
+   display: flex;
+   align-items: center;
+   margin-top: 90px;
+  }
+  
+  #imagenes2 div{
+    width: 474px;
+    height: 527px;
+    justify-items: center;
+  }
+  
+  #imagenes2 div img{
+    width: 474px;
+    height: 320px;
+  }
+  
+  #imagenes2 div h2{
+    width: 282px;
+    height: 25px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+  
+  #imagenes2 div p{
+    width: 452px; 
+    height: 130px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #555555;
+    text-align: center;
+  }
+  
+  #trailers{
+    margin-left: 40px;
+  }
+  
+  #camping{
+    margin-left: 210px;
+  }
+  
+  #cabinas{
+    margin-left: 40px;
+  }
+  
+  #activity_informacion{
+    display: flex; 
+  }
+  
+  #activity1 h1{
+    margin-left: 210px;
+  }
+  
+  #activity1{
+    margin-top: 130px;
+    font-weight: 700;
+  }
+  #activity1 p{
+    width: 97px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #97A483;
+    margin-left: 210px;
+  } 
+  
+  #activity1 h1{
+    color: #2D2D2D;
+    width: 646px;
+    height: 122px;
+    font-size: 50px;
+    line-height: 60.51px;
+    margin-top: 17px;
+  }
+  
+  #activityLogo{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-image: url(imagenes/fondo.png);
+    width: 582px;
+    height: 338px;
+    margin-top: 120px;
+    margin-left: 235px;
+  }
+  
+  #activityLogo img{
+    width: 395px;
+    height: 355.46px;
+  }
+  
+  #activityLogo3 , #activityLogo4{
+    display: flex;
+  }
+  
+  #activityLogo2 h1{
+    color: #2D2D2D;
+    height: 25px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    margin-top: 28px;
+  }
+  
+  #activityLogo2 p{
+    width: 296px;
+    height: 130px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #555555;
+    margin-top: 19px;
+  }
+    
+  #montaña{
+    margin-left: 104px;
+    margin-top: 71px;
+  }
+  
+  #montaña img{
+    width: 104px;
+    max-width: 104px;
+    height: 104px;
+    max-height: 104px;
+  }
+  
+  #montaña h1{
+    width: 103px;
+    max-width: 103px;
+  }
+  
+  #fuego{
+    margin-top: 176px;
+    margin-left: 84px;
+  }
+  
+  #fuego img{
+    width: 93px;
+    height: 94px;
+  }
+  
+  #fuego h1{
+    width: 85px;
+  }
+  
+  #canoa{
+    margin-left: 104px;
+  }
+  
+  #canoa h1{
+    width: 113px;
+  }
+  
+  #canoa img{
+    width: 108px;
+    height: 111px;
+  }
+  
+  #caminar{
+    margin-top: 70px;
+    margin-left: 84px;
+  }
+  
+  #caminar img{
+    width: 112px;
+    max-width: 112px;
+    height: 112px;
+    max-height: 112px;
+  }
+  
+  #caminar h1{
+    width: 76px;
+    max-width: 76px;
+  }
+  
+  #action{
+    width: 1920px;
+    height: 701px;
+    background-image: url(images/Hoguera.png);
+    margin-top: 64px;
+    position: relative;
+  }
+  
+  #action p{
+    color: #FFFFFF;
+    text-align: center;
+    width: 903px;
+    height: 122px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60.51px;
+    margin-top: 265px;
+    margin-left: 510px;
+    position: absolute;
+  }
+  
+  #action button:hover{
+    cursor: pointer;
+  }
+  
+  #action button{
+    background-color: transparent;
+    border:  2px solid #FFFFFF;
+    justify-content: center;
+    position: absolute;
+    width: 293px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 432px;
+    margin-left: 813px;
+  }
+  
+  #action button a {
+    width: 150.36px;
+    height: 17px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  #booking p{
+    color: #97A483;
+    text-align: center;
+    width: 94px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 20px;
+    list-style: 24.2px;
+    margin-top: 120px;
+    margin-left: 914px;
+  }
+  
+  #booking h1{
+    width: 646px;
+    height: 122px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60.51px;
+    text-align: center;
+    color: #2D2D2D;
+    margin-top: 17px;
+    margin-left: 638px;
+  }
+  
+  .anuncios{
+    display: flex;
+    margin-top: 86px;
+    margin-left: 210px;
+  }
+  
+  #caravana, #cabañademadera{
+    margin-left: 32px;
+  }
+  
+  .anuncios > div > img{
+    width: 733px;
+    max-width: 733px;
+    height: 443px;
+    max-height: 443px;
+  }
+  
+  .anuncios  h2{
+    height: 25px;
+    max-height: 25px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    color: #345E40;
+    margin-top: 39px;
+  }
+  
+  #tiendanavideña h2{
+    width: 179px;
+    max-width: 179px;
+  }
+  
+  #caravana h2{
+    width: 223px;
+    max-width: 223px;
+  }
+  
+  #tiendamadera h2{
+    width: 190px;
+    max-width: 190px;
+  }
+  
+  #cabañademadera h2{
+    width: 213px;
+    max-width: 213px;
+  }
+  
+  .personas{
+    width: 733px;
+    max-width: 733px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .personas div{
+    width: 179px;
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .personas div p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #555555;
+  }
+  
+  .personas div hr{ 
+    color: #9A9A9A;
+  }
+  
+  .anuncios > div > p{
+    width: 677px;
+    height: 130px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify; 
+    color: #555555;
+    margin-top: 21px;
+  }
+  
+  .anuncios div button{
+    width: 293px;
+    height: 50px;
+    background-color: #345E40;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+  }
+  
+  .anuncios div button:hover{
+    cursor: pointer;
+  }
+  
+  .anuncios div button a{
+    color: #FFFFFF;
+    width: 150.36px;
+    height: 17px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.94px;
+    text-decoration: none;
+  }
+  
+  #news > p{
+    width: 55px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24.2px;
+    color: #97A483;
+    margin-top: 120px;
+    margin-left: 210px;
+  }
+  
+  #Lastest_Articles {
+    display: flex;
+    margin-top: 13px;
+  }
+  
+  #Lastest_Articles h2{
+    color: #2D2D2D;
+    width: 621px;
+    height: 61px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60.51px;
+    margin-left: 209px;
+  }
+  
+  #Lastest_Articles button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #345E40;
+    width: 151px;
+    height: 50px;
+    border-radius: 11px;
+    margin-left: 730px;
+    cursor: pointer;
+  }
+  
+  
+  #Lastest_Articles button a{
+    width: 77.49px;
+    height: 17px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  
+  #Articles_news{
+    display: flex;
+    margin-top: 49px;
+  }
+  
+  #news1{
+    margin-left: 210px;
+  }
+  
+  #news2{
+    margin-left: 39px;
+  }
+  
+  #news3{
+    margin-left: 39px;
+  }
+  
+  .noticia img{
+    width: 473.36px;
+    height: 286.41px;
+  }
+  
+  .noticia p{
+    color: #2D2D2D;
+    width: 453px;
+    height: 104px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: justify;
+    margin-top: 43.8px;
+  }
+  
+  .link_noticias{
+    color: #555555;
+    width: 157px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-decoration: none;
+  }
+  
+  #ourgallery{
+    width: 1711px;
+    height: 840px;
+    display: flex;
+    position: relative;
+    margin-left: 209px;
+    margin-top: 73px;  
+  }
+  
+  #ourgallery div p{
+    color: #555555;
+    width: 387px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+    margin-top: 19px;
+  } 
+  
+  #ourgallery div h1{
+    width: 351px;
+    height: 61px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60.51px;
+    color: #2D2D2D;
+  }
+  
+  #flechasGaleria{
+    display: flex;
+    margin-top: 26px;
+  }
+  .botonesGaleria button{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #555555;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  
+  #flechaIzquierdaGaleria{
+    opacity: 30%;
+    rotate: 180deg;
+  }
+  
+  #flechaDerechaGaleria{
+    margin-left: 34px;
+  }
+  
+  #tiendamaderalado img{
+    width: 1140px;
+    height: 757px;
+    margin-top: 16px;
+    margin-left: 180px;
+  }
+  
+  #casatriangular {
+    position: absolute;
+    width: 352px;
+    height: 456px;
+    margin-left: 300px;
+    margin-top: 380px;
+  }
+  
+  footer{
+    width: 1920px;
+    max-width: 1920px;
+    height: 610px;
+    max-height: 610px;
+  
+    background-color: #345E40;
+  
+    margin-top: 6345px;
+  }
+  
+  footer > div{
+    position: absolute;
+    margin-left: 210px;
+    display: flex;
+  }
+  
+  #subscribe{
+    margin-top: 172px;
+  }
+  
+  #subscribe h1{
+    color: #FFFFFF;
+    width: 751px;
+    height: 182px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 91px;
+    text-transform: uppercase;
+  }
+  
+  #subscribe p{
+    width: 228px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    color: #FFFFFF;
+    margin-top: 117px;
+  }
+  
+  #derecha{
+    margin-top: 180px;
+    margin-left: 197px;
+  }
+  
+  #footerfinal{
+    display: flex;
+  }
+  
+  #footerfinal nav{
+    width: 384px;
+    max-width: 384px;
+    height: 99px;
+    max-height: 99px;
+  }
+  
+  #footerfinal nav h4{
+    color: #FFFFFF;
+    width: 99px;
+    height: 43px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 43.2px;
+  }
+  
+  #footerfinal nav ul{
+    width: 384px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin-top: 24px;
+  }
+  
+  #footerfinal nav ul li {
+    list-style: none;  
+  }
+  
+  #footerfinal > nav > ul a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  
+  #boton_desplegar{
+    width: 48px;
+    height: 48px;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px; 
+    margin-left: 124px;
+    cursor: pointer;
+  }
+  
+  #footercontacto{
+    width: 222px;
+    max-width: 222px;
+    height: 134px;
+    max-height: 134px;
+  
+    margin-top: 33px;
+  }
+  
+  #footercontacto h4{
+    width: 94px;
+    max-width: 94px;
+    height: 43px;
+    max-height: 43px;
+  
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 43.2px;
+  
+    color: #F8F5F0;
+  }
+  
+  #footercontacto a{
+    width: 176px;
+    max-width: 176px;
+    height: 21px;
+    max-height: 21px;
+  
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+  
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  #footercontacto a > p{
+  margin-top: 23.5px;
+  }
+  
+  #footerlogos{
+    width: 213px;
+    height: 24px;
+    margin-top: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #Logos_Footer img{
+    width: 24px;
+    max-width: 24px;
+    height: 24px;
+    max-height: 24px;
+  }
