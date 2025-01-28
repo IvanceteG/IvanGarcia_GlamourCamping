@@ -36,6 +36,52 @@
                 <div class="flechas" id="flecha_derecha">
                     <img src="images/flechaizquierda.png" alt="flechaizquierda">
                 </div> 
+
+                <div id="formulario">
+                    <form id="formulario_principal" action="">
+                        <div class="contenedor_formulario">
+                            <div>
+                                <label for="checkin"> CHECK IN</label>
+                            </div>
+                            <input type="date" name="Checkin" id="checkin">
+                            <hr>
+                        </div>
+
+                        <div class="contenedor_formulario">
+                            <div>
+                                <label for="checkout"> CHECK OUT</label>
+                            </div>
+                            <input type="date" name="Checkout" id="checkout">
+                            <hr>
+                        </div class="contenedor_formulario">
+        
+                        <div class="contenedor_formulario">
+                            <div>
+                                <label for="personas"> GUESTS</label>
+                            </div>
+                            <input type="number" name="Personas" id="personas" min="1">
+                            <hr>
+                        </div>
+        
+                        <div class="contenedor_formulario">
+                            <div>
+                                <label for="estancia">ACCOMMODATION</label>
+                            </div>
+                            <select name="Estancia" id="estancia">
+                                <option value="">Selecciona</option>
+                                <option value="TENT ">Tent</option>
+                                <option value="CAMPER ">Camper</option>
+                                <option value="CARAVANA">Caravana</option>
+                                <option value="GLAMP ">Glamp</option>
+                                <option value="CABINHOUSES">Cabin Houses</option>
+                            </select>
+                            <hr>
+                        </div>
+                        <div>
+                            <button type="submit"> BOOK NOW </button>
+                        </div>
+                    </form>
+                 </div>
                 
                 <div id="contenido">
                     <p>Let's Make More Memories</p>
@@ -328,20 +374,20 @@
 </main>
 
 <footer>
-
     <div>
-
-        <div id="subscribe">
-
+        <div id="Footer_Suscribe">
             <h1>Subscribe to our newletter</h1>
-            <p>Copyright: Iván García</p>
-
+            <form id="formuario_footer" method="post" action="prueba.php">
+                <div>
+                    <input type="email" placeholder="enter you email address">
+                    <a href="#">subscribe</a>
+                </div>
+            </form>
+            <p>Copyright: Ivan Garcia</p>
         </div>
 
-        <div id="derechafooter">
-
-            <div id="footerfinal">
-
+        <div id="Footer_Derecha">
+            <div id="Menu_footer">
                 <nav>
                     <h4>Sitemap</h4>
                     <ul>
@@ -351,33 +397,21 @@
                         <li><a href="">News</a></li>
                     </ul>
                 </nav>
-                
-                <div id="boton_desplegar">
-
-                    <a href="#cabecera"><img src="images/despliegue.png" alt="despliegue"></a>
-
-                </div>
-
             </div>
 
-            <div id="footercontacto">
-
+            <div id="Contacto_Footer">
                 <h4>Contact</h4>
                 <a href="#"><p>Dotcreativemarket.com</p></a>
                 <a href="mailto:info@dotcreativemarket.com"><p>info@dotcreativemarket.com</p></a>
-
             </div>
 
-            <div id="footerlogos">
-
-                <img src="images/instagram.png" alt="Instagram">
-                <img src="images/tiktok.png" alt="TikTok">
-                <img src="images/X.png" alt="X">
-                <img src="images/medium.png" alt="Medium">
+            <div id="Logos_Footer">
+                <a href="#"><img src="images/X.png" alt="X"></a>
+                <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="images/tiktok.png" alt="TikTok"></a>
             </div>
         </div>
     </div>
 </footer>
-    
-
-</body></html>
+</body>
+</html>
