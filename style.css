@@ -1,571 +1,630 @@
-body{
+*{
     box-sizing: border-box;  
     font-family: "Inter", serif;
     margin: 0;
-  }
-  
-  a{
+}
+
+a{
     font-size:16px;
-  }
-  
-  #head{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  header{
+}
+
+header{
+    background-image: url(img/Banner.svg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 925px;
     width: 1920px;
-    max-width: 1920px;
     max-height: 925px;
-    background-image: url(images/victor-larracuente-JQfYGhUcDSg-unsplash\ 1.png);
-  }
-  
-  .logo{
-    width: 152.13px;
-    height: 110px;
-    margin-top: 30px;
-    margin-left: 115px;
-  }
-  
-  #menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 115px;
-  }
-  
-  #menu button{
-    width: 151px;
-    height: 50px;
-    border: 2px solid #FFFFFF;
-    border-radius: 10px;
-    margin-top: 70px;
-    left: 1655px;
-    margin-left: 49.5px;
-    background-color: transparent;
-  }
-  
-  #menu nav ul{
-    padding: 0;
-    width: 395px;
-    height: 35px;
-    margin-top: 70px;
-    left: 1210px;
+    max-width: 1920px;
+}
+
+#cabecera{
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  #menu nav ul li{
+}
+
+.logo{
+    width: 152.13px;
+    max-width: 152.13px;
+    height: 110px;
+    max-height: 110px;
+    margin-top: 31px;
+    margin-left: 114px;
+}
+
+header #menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 114px;
+}
+
+#menu > nav > ul{
+    width: 396px;
+    max-width: 396px;
+    height: 32px;
+    max-height: 32px;
+    margin-top: 71px;
+    left: 1212px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu > nav > ul > li{
     list-style: none;
-  }
-  
-  #menu nav ul li a{
+}
+
+#menu > nav > ul > li > a{
+    color: #FFFFFF;
     text-decoration: none;
     font-weight: 500;
     line-height: 32px;
-  }
-  
-  #menu button:hover{
+}
+
+#menu > button{
+    transition: cursor 4s ease;
+    width: 151px;
+    max-width: 151px;
+    height: 50px;
+    max-height: 50px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    margin-top: 71px;
+    left: 1655px;
+    margin-left: 49.5px;
+    background-color: transparent;
+}
+
+#menu > button:hover{
     cursor: pointer;
-  }
-  
-  #menu button a{
+}
+
+#menu > button > a{
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 16.94px;
-  }
-  
-  .flechas{
+}
+
+#Flechas{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Contenido-Flechas{
+    display: flex;
+}
+
+.flecha{
+    transition: cursor 3s ease;
     height: 40px;
+    max-height: 40px;
     width: 40px;
+    max-width: 40px;
     margin-top: 320px;
     border: 1px solid #FFFFFF;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  #flecha_derecha{
+}
+
+.flecha:hover{
+    cursor: pointer;
+}
+
+#flecha_derecha{
     margin-left: 110px;
     opacity: 30%;
-  }
-  
-  #flecha_izquierda{
+}
+
+#flecha_izquierda{
     margin-right: 110px;
-  }
-  
-  .flechas:hover{
-    cursor: pointer;
-  }
-  
-  #cambiapagina{
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  #cambiapagina_cont{
-    display: flex;
-  }
-  
-  #contenido p{
+}
+
+#Informacion > p{
     color: #FFFFFF;
+    max-width:323px;
+    max-height:32px;
     margin-top: 156px;
     margin-left: 60px;
     font-weight: 500;
     font-size: 16px;
     line-height: 25px;
-  }
-  
-  
+}
 
-  #contenido h3{
+#Informacion h4{
     color: #FFFFFF;
     width: 505px;
+    max-width:505px;
     height: 206px;
-    margin-top: 10px;
-    margin-left: 62px;
+    max-height:206px;
+    margin-top: 9px;
+    margin-left: 60px;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 48px;
     line-height: 60px;
-  }
-  
-  .videoboton{
+}
+
+.video{
     width: 241px;
+    max-width: 241px;
     margin-left: 60px;
     display: flex;
     gap: 20px;
-  }
-  
-  #play{
+}
+
+#play{
+    transition: cursor 3s ease;
     border: 1px solid #FFFFFF;
     border-radius: 100%;
     width: 43px;
+    max-width: 43px;
     height: 43px;
+    max-height: 43px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  #play:hover{
+}
+
+#play:hover{
     cursor: pointer;
-  }
-  
-  #play img{
+}
+
+#play > img{
     width: 14.56px;
     max-width: 14.56px;
     height: 11.79px;
     max-height: 11.79px;
-  }
-  
-  body{
-    color: #2D2D2D;
-    font-family: "Inter", sans-serif;
-    font-weight: 100;
-    font-optical-sizing: auto; 
 }
 
-.titolarticle{
-    color: #345E40; 
-    text-align: center; 
-    border-bottom: 2px solid #97A483; 
-    padding-top: 10px; 
-    padding-bottom: 10px;    
-}
-.citas{
-    background-color: #F7F2DB; 
-    border: 2px solid #97a48388; 
-    border-radius: 10px; 
-    padding: 20px;
-}
-
-
-
-
-  .videoboton > a{
+.video > a{
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 25px;
     margin-top: 5px;
-  }
-  
-  main{
+}
+
+main{
     width: 1920px;
+    max-width: 1920px;
     height: 6345px;
+    max-height: 6345px;
     background-color: #F7F2DB;
     position: absolute;
-  }
-  
-  #about{
+}
+#about{
     width: 72px;
+    max-width: 72px;
     height: 24px;
+    max-height: 24px;
     font-weight: 700;
     font-size: 20px;
     line-height: 24.2px;
     margin-top: 186px;
     margin-left: 923px;
-  }
-  
-  #about > p{
+}
+
+#about > p{
     text-align: center;
     color: #97A483;
-  } 
-  
-  #contenido_activity p{
-    width: 1088px;
-    height: 130px;
-    color: #555555;
-    font-size: 16px;
-    line-height: 30px;
-    text-align: center;
-    margin-top: 27px;
-    margin-left: 416px;
-    font-weight: 500;
-  }
-  
-  #contenido_activity h2{
-    text-align: center;
+} 
+
+#Info_activity > h2{
     width: 520px;
+    max-width: 520px;
     height: 122px;
+    max-height: 122px;
     font-weight: 700;
     font-size: 50px;
     line-height: 60.51px;
-    margin-top: 40px;
+    text-align: center;
+    margin-top: 41px;
     margin-left: 699px;
-  }
-  
-  #imagenes{
+}
+
+#Info_activity > p{
+    width: 1088px;
+    max-width: 1088px;
+    height: 130px;
+    max-height: 130px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #555555;
+    margin-top: 27px;
+    margin-left: 416px;
+}
+
+#cards{
+    max-width: 1500px;
     height: 100px;
+    max-height: 100px;
     margin-left: 295px;
     margin-right: 295px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  #imagenes hr{
+}
+
+#cards > hr{
     width: 95px;
     color: #BFBFBF;
-    rotate: -90deg; 
-  }
-  
-  #imagenes div p{
+    rotate: -90deg;
+}
+
+#cards > div > p{
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
     text-align: center;
     margin-top: 18px;
-  }
-  
-  .imagenes_clase{
+}
+
+.card{
     margin-top: 20px;
-  }
-  
-  .imagenes_clase img{
+}
+
+.card > img{
     margin-left: 19px;
-  }
-  
-  #caravana1 img{
+}
+
+#autocaravana > img{
     width: 104px;
+    max-width: 104px;
     height: 59px;
-  }
-  
-  #caravana1 p{
+    max-height: 59px;    
+}
+
+#autocaravana > p{
     width: 142px;
+    max-width: 142px;
     height: 30px;
-  }
-  
-  #caravana2 img{
+    max-height: 30px;
+}
+
+#Caravana > img{
     width: 97px;
+    max-width: 97px;
     height: 59px;
-  }
-  
-  #caravana2 p{
+    max-height: 59px;
+}
+
+#Caravana > p{
     width: 150px;
+    max-width: 150px;
     height: 30px;
-  }
-  
-  #tienda img{
+    max-height: 30px;
+}
+
+#Tienda_acampada > img{
     width: 79px;
+    max-width: 79px; 
     height: 59px;
-  }
-  
-  #tienda p{
+    max-height: 59px;
+}
+
+#Tienda_acampada > p{
     width: 117px;
+    max-width: 117px;
     height: 30px;
-  }
-  
-  #sitios img{
+    max-height: 30px;
+}
+
+#Lugares > img{
     width: 102.16px;
+    max-width: 102.16px; 
     height: 62.9px;
-  }
-  
-  #sitios p{
+    max-height: 62.9px;
+}
+
+#Lugares > p{
     width: 129px;
+    max-width: 129px;
     height: 30px;
-  }
-  
-  #cabaña p{
-    width: 143px;
-    height: 30px;
-  }
-  
-  #cabaña img{
+    max-height: 30px;
+}
+
+#Cabaña > img{
     width: 62px;
+    max-width: 62px;
     height: 59px;
-  }
-  
-  #imagenes2{
+    max-height: 59px;
+}
+
+#Cabaña > p{
+    width: 143px;
+    max-width: 143px;
+    height: 30px;
+    max-height: 30px;
+}
+
+#cards_2{
    display: flex;
    align-items: center;
-   margin-top: 90px;
-  }
-  
-  #imagenes2 div{
+   margin-top: 87px;
+}
+
+#cards_2 > div{
     width: 474px;
+    max-width: 474px;
     height: 527px;
+    max-height: 527px;
     justify-items: center;
-  }
-  
-  #imagenes2 div img{
+}
+
+#cards_2 > div > img{
     width: 474px;
+    max-width: 474px;
     height: 320px;
-  }
-  
-  #imagenes2 div h2{
+    max-height: 320px;
+}
+
+#cards_2 > div > h2{
     width: 282px;
+    max-width: 282px;
     height: 25px;
+    max-height: 25px;
     font-weight: 700;
     font-size: 24px;
     line-height: 25px;
     text-align: center;
-    margin-top: 35px;
-    margin-bottom: 20px;
-  }
-  
-  #imagenes2 div p{
-    width: 452px; 
+    margin-top: 33px;
+    margin-bottom: 19px;
+}
+
+#cards_2 > div > p{
+    width: 452px;
+    max-width: 452px; 
     height: 130px;
+    max-height: 130px;
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
     color: #555555;
     text-align: center;
-  }
-  
-  #trailers{
-    margin-left: 40px;
-  }
-  
-  #camping{
+}
+
+#Camping_area_for_tents{
     margin-left: 210px;
-  }
-  
-  #cabinas{
-    margin-left: 40px;
-  }
-  
-  #activity_informacion{
+}
+
+#Trailers_And_RV_Spots{
+    margin-left: 39px;
+}
+
+#Cabins_and_glamping{
+    margin-left: 39px;
+}
+
+#activity_informacion{
     display: flex; 
-  }
-  
-  #activity1 h1{
+}
+
+#Activity_Intro > h1 , #Activity_Intro > p{
     margin-left: 210px;
-  }
-  
-  #activity1{
-    margin-top: 130px;
+}
+
+#Activity_Intro{
+    margin-top: 131px;
     font-weight: 700;
-  }
-  #activity1 p{
+}
+#Activity_Intro > p{
     width: 97px;
+    max-width: 97px;
     height: 24px;
+    max-height: 24px;
     font-size: 20px;
     line-height: 24.2px;
     color: #97A483;
-    margin-left: 210px;
-  } 
-  
-  #activity1 h1{
-    color: #2D2D2D;
+} 
+
+#Activity_Intro > h1{
     width: 646px;
+    max-width: 646px;
     height: 122px;
+    max-height: 122px;
     font-size: 50px;
     line-height: 60.51px;
+    color: #2D2D2D;
     margin-top: 17px;
-  }
-  
-  #activityLogo{
+}
+
+#Activity_Intro_logo{
+    width: 582px;
+    max-width: 582px;
+    height: 338px;
+    max-height: 338px;
+    background-image: url(img/Fondo_Actividades.png);
+    margin-top: 120px;
+    margin-left: 232px;
     display: flex;
     justify-content: center;
     justify-items: center;
-    background-image: url(imagenes/fondo.png);
-    width: 582px;
-    height: 338px;
-    margin-top: 120px;
-    margin-left: 235px;
-  }
-  
-  #activityLogo img{
+}
+
+#Activity_Intro_logo > img{
     width: 395px;
+    max-width: 395px;
     height: 355.46px;
-  }
-  
-  #activityLogo3 , #activityLogo4{
+    max-height: 355.46px;
+}
+
+#Logos_1_Activity , #Logos_2_Activity{
     display: flex;
-  }
-  
-  #activityLogo2 h1{
-    color: #2D2D2D;
+}
+#Logos_Activity h1{
     height: 25px;
+    max-height: 25px;
     font-weight: 700;
     font-size: 24px;
     line-height: 25px;
+    color: #2D2D2D;
     margin-top: 28px;
-  }
-  
-  #activityLogo2 p{
+}
+
+#Logos_Activity p{
     width: 296px;
+    max-width: 296px;
     height: 130px;
+    max-height: 130px;
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
     color: #555555;
     margin-top: 19px;
-  }
-    
-  #montaña{
+}
+
+#Montaña{
     margin-left: 104px;
     margin-top: 71px;
-  }
-  
-  #montaña img{
+}
+#Montaña > img{
     width: 104px;
     max-width: 104px;
     height: 104px;
     max-height: 104px;
-  }
-  
-  #montaña h1{
+}
+
+#Montaña > h1{
     width: 103px;
     max-width: 103px;
-  }
-  
-  #fuego{
+}
+
+#Fogata{
     margin-top: 176px;
     margin-left: 84px;
-  }
-  
-  #fuego img{
+}
+
+#Fogata > img{
     width: 93px;
+    max-width: 93px;
     height: 94px;
-  }
-  
-  #fuego h1{
+    max-height: 94px;
+}
+
+#Fogata > h1{
     width: 85px;
-  }
-  
-  #canoa{
+    max-width: 85px;
+}
+
+#Canoa{
     margin-left: 104px;
-  }
-  
-  #canoa h1{
-    width: 113px;
-  }
-  
-  #canoa img{
+}
+
+#Canoa > img{
     width: 108px;
+    max-width: 108px;
     height: 111px;
-  }
-  
-  #caminar{
+    max-width: 111px;
+}
+
+#Canoa > h1{
+    width: 113px;
+    max-width: 113px;
+}
+
+
+#Senderismo{
     margin-top: 70px;
     margin-left: 84px;
-  }
-  
-  #caminar img{
+}
+
+#Senderismo > img{
     width: 112px;
     max-width: 112px;
     height: 112px;
     max-height: 112px;
-  }
-  
-  #caminar h1{
+}
+
+#Senderismo > h1{
     width: 76px;
     max-width: 76px;
-  }
-  
-  #action{
+}
+
+#action{
     width: 1920px;
+    max-width: 1920px;
     height: 701px;
-    background-image: url(images/Hoguera.png);
+    max-height: 701px;
+    background-image: url(img/Hoguera.png);
     margin-top: 64px;
     position: relative;
-  }
-  
-  #action p{
-    color: #FFFFFF;
-    text-align: center;
+}
+
+#action > p{
+    position: absolute;
     width: 903px;
+    max-width: 903px;
     height: 122px;
+    max-height: 122px;
     font-weight: 700;
     font-size: 50px;
     line-height: 60.51px;
-    margin-top: 265px;
-    margin-left: 510px;
-    position: absolute;
-  }
-  
-  #action button:hover{
-    cursor: pointer;
-  }
-  
-  #action button{
-    background-color: transparent;
-    border:  2px solid #FFFFFF;
-    justify-content: center;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 262px;
+    margin-left: 508px;
+}
+
+#action > button{
+    transition: cursor 3s ease;
     position: absolute;
     width: 293px;
+    max-width: 293px;
     height: 50px;
+    max-height: 50px;
+    border:  2px solid #FFFFFF;
     border-radius: 10px;
+    background-color: transparent;
     margin-top: 432px;
     margin-left: 813px;
-  }
-  
-  #action button a {
+    justify-content: center;
+    justify-items: center;
+}
+
+#action > button:hover{
+    cursor: pointer;
+}
+
+#action > button > a {
     width: 150.36px;
+    max-width: 150.36px;
     height: 17px;
+    max-height: 17px;
     font-weight: 700;
     font-size: 14px;
     line-height: 16.94px;
     color: #FFFFFF;
     text-decoration: none;
-  }
-  
-  #booking p{
-    color: #97A483;
-    text-align: center;
+}
+
+#booking > p{
     width: 94px;
+    max-width: 94px;
     height: 24px;
+    max-height: 24px;    
     font-weight: 700;
     font-size: 20px;
     list-style: 24.2px;
+    text-align: center;
+    color: #97A483;
     margin-top: 120px;
     margin-left: 914px;
-  }
-  
-  #booking h1{
+}
+
+#booking > h1{
     width: 646px;
+    max-width: 646px;
     height: 122px;
+    max-height: 122px;
     font-weight: 700;
     font-size: 50px;
     line-height: 60.51px;
@@ -573,366 +632,410 @@ body{
     color: #2D2D2D;
     margin-top: 17px;
     margin-left: 638px;
-  }
-  
-  .anuncios{
+}
+
+.articulos_booking{
     display: flex;
+
     margin-top: 86px;
     margin-left: 210px;
-  }
-  
-  #caravana, #cabañademadera{
+}
+
+#Caravan_soler_tent, #Small_Cabin_Wood{
     margin-left: 32px;
-  }
-  
-  .anuncios > div > img{
+}
+
+.articulos_booking > div > img{
     width: 733px;
     max-width: 733px;
     height: 443px;
     max-height: 443px;
-  }
-  
-  .anuncios  h2{
+}
+
+.articulos_booking  h2{
     height: 25px;
     max-height: 25px;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 25px;
-    color: #345E40;
+    font-size: 25px;
+    line-height: 26px;
+    color: #345e45;
     margin-top: 39px;
-  }
-  
-  #tiendanavideña h2{
+}
+
+#Bell_Glamp_One h2{
     width: 179px;
     max-width: 179px;
-  }
-  
-  #caravana h2{
+}
+
+#Caravan_soler_tent h2{
     width: 223px;
     max-width: 223px;
-  }
-  
-  #tiendamadera h2{
+}
+
+#Glammping_Tent h2{
     width: 190px;
     max-width: 190px;
-  }
-  
-  #cabañademadera h2{
+}
+
+#Small_Cabin_Wood h2{
     width: 213px;
     max-width: 213px;
-  }
-  
-  .personas{
+}
+
+.title_persons{
     width: 733px;
     max-width: 733px;
     display: flex;
     justify-content: space-between;
-  }
-  
-  .personas div{
+}
+
+.title_persons > div{
     width: 179px;
     margin-top: 39px;
     display: flex;
     justify-content: space-between;
-  }
-  .personas div p{
+}
+.title_persons > div > p{
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
     color: #555555;
-  }
-  
-  .personas div hr{ 
+}
+
+.title_persons > div > hr{ 
     color: #9A9A9A;
-  }
-  
-  .anuncios > div > p{
+}
+
+.articulos_booking > div > p{
     width: 677px;
+    max-width: 677px;
     height: 130px;
+    max-height: 130px;
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
     text-align: justify; 
     color: #555555;
     margin-top: 21px;
-  }
-  
-  .anuncios div button{
-    width: 293px;
+}
+
+.articulos_booking > div > button{
+    transition: cursor 4s ease;    
+    width: 300px;
+    max-width: 300px;
     height: 50px;
+    max-height: 50px;
     background-color: #345E40;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;   
-  }
-  
-  .anuncios div button:hover{
+}
+
+.articulos_booking > div > button:hover{
     cursor: pointer;
-  }
-  
-  .anuncios div button a{
-    color: #FFFFFF;
-    width: 150.36px;
+}
+
+.articulos_booking > div > button > a{
+    width: 150px;
+    max-width: 150px;
     height: 17px;
+    max-height: 17px;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16.94px;
+    line-height: 16px;
+    color: #FFFFFF;
     text-decoration: none;
-  }
-  
-  #news > p{
+}
+ 
+#news > p{
     width: 55px;
+    max-width: 55px;
     height: 24px;
+    max-height: 24px;
     font-weight: 700;
     font-size: 24px;
-    line-height: 24.2px;
+    line-height: 24px;
     color: #97A483;
     margin-top: 120px;
     margin-left: 210px;
-  }
-  
-  #Lastest_Articles {
+}
+
+#Last_Articles {
     display: flex;
     margin-top: 13px;
-  }
-  
-  #Lastest_Articles h2{
-    color: #2D2D2D;
+}
+
+#Last_Articles > h2{
     width: 621px;
+    max-width: 621px;
     height: 61px;
+    max-height: 61px;
     font-weight: 700;
     font-size: 50px;
-    line-height: 60.51px;
-    margin-left: 209px;
-  }
-  
-  #Lastest_Articles button{
+    line-height: 60px;
+    color: #2D2D2D;
+    margin-left: 200px;
+}
+
+#Last_Articles > button{
+    transition: cursor 3s ease;
+    width: 150px;
+    max-width: 150px;
+    height: 50px;
+    max-height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #345E40;
-    width: 151px;
-    height: 50px;
-    border-radius: 11px;
+    border-radius: 10px;
     margin-left: 730px;
+}
+
+#Last_Articles > button:hover{
     cursor: pointer;
-  }
-  
-  
-  #Lastest_Articles button a{
-    width: 77.49px;
+}
+
+#Last_Articles > button > a{
+    width: 77px;
+    max-width: 77px;
     height: 17px;
+    max-height: 17px;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
     text-decoration: none;
+
     color: #FFFFFF;
-  }
-  
-  #Articles_news{
+}
+
+#Articles_news{
+    margin-top: 48px;
     display: flex;
-    margin-top: 49px;
-  }
-  
-  #news1{
+}
+#news_1{
     margin-left: 210px;
-  }
-  
-  #news2{
+}
+
+#news_2,#news_3{
     margin-left: 39px;
-  }
-  
-  #news3{
-    margin-left: 39px;
-  }
-  
-  .noticia img{
-    width: 473.36px;
-    height: 286.41px;
-  }
-  
-  .noticia p{
-    color: #2D2D2D;
+}
+
+.new img{
+    width: 473px;
+    max-width: 473px;
+    height: 286px;
+    max-height: 286px;
+}
+
+.new p{
     width: 453px;
-    height: 104px;
+    max-width: 453px;
+    height: 100px;
+    max-height: 100px;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
     text-align: justify;
-    margin-top: 43.8px;
-  }
-  
-  .link_noticias{
-    color: #555555;
+    color: #2D2D2D;
+    margin-top: 43px;
+}
+
+.new_link{
     width: 157px;
+    max-width: 157px;
     height: 60px;
+    max-height: 60px;
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
     text-decoration: none;
-  }
-  
-  #ourgallery{
-    width: 1711px;
-    height: 840px;
-    display: flex;
-    position: relative;
-    margin-left: 209px;
-    margin-top: 73px;  
-  }
-  
-  #ourgallery div p{
     color: #555555;
+}
+
+#gallery{
+    position: relative;
+    width: 170px;
+    max-width: 1700px;
+    height: 840px;
+    max-height: 840px;
+    display: flex;
+    margin-left: 210px;
+    margin-top: 73px;  
+}
+
+#gallery > div > h1{
+    width: 350px;
+    max-width: 350px;
+    height: 60px;
+    max-height: 60px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #2D2D2D;
+}
+
+#gallery > div > p{
     width: 387px;
+    max-width: 387px;
     height: 96px;
+    max-height: 96px;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     text-align: justify;
+    color: #555555;
     margin-top: 19px;
-  } 
-  
-  #ourgallery div h1{
-    width: 351px;
-    height: 61px;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 60.51px;
-    color: #2D2D2D;
-  }
-  
-  #flechasGaleria{
+} 
+
+#flechas_gallery{
     display: flex;
     margin-top: 26px;
-  }
-  .botonesGaleria button{
+}
+.botones_gallery > button{
+    transition: cursor 4s ease;
     width: 40px;
+    max-width: 40px;
     height: 40px;
-    background-color: transparent;
+    max-height: 40px;
     border: 1px solid #555555;
+    border-radius: 100px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-    border-radius: 100px;
+    background-color: transparent;
+}
+
+.botones_gallery > button:hover{
     cursor: pointer;
-  }
-  
-  #flechaIzquierdaGaleria{
+}
+
+#img_final >img{
+    width: 1140px;
+    max-width: 1140px;
+    height: 750px;    
+    margin-top: 17px;
+    margin-left: 180px;
+}
+
+#flecha_izquierda_gallery{
     opacity: 30%;
     rotate: 180deg;
-  }
-  
-  #flechaDerechaGaleria{
+}
+
+#flecha_derecha_gallery{
     margin-left: 34px;
-  }
-  
-  #tiendamaderalado img{
-    width: 900px;
-    height: 600px;
-    margin-top: 16px;
-    margin-left: 180px;
-  }
-  
-  #casatriangular {
+}
+
+#imagen_absolulata_gallery {
     position: absolute;
-    width: 352px;
-    height: 456px;
+    width: 350px;
+    max-width: 350px;
+    height: 4560px;
+    max-height: 450px;
     margin-left: 300px;
     margin-top: 380px;
-  }
-  
-  footer{
+}
+
+footer{
     width: 1920px;
     max-width: 1920px;
     height: 610px;
     max-height: 610px;
-  
     background-color: #345E40;
-  
     margin-top: 6345px;
-  }
-  
-  footer > div{
+}
+
+footer > div{
     position: absolute;
-    margin-left: 210px;
+    margin-left: 209px;
     display: flex;
-  }
-  
-  #subscribe{
+}
+#Footer_Suscribe{
     margin-top: 172px;
-  }
-  
-  #subscribe h1{
-    color: #FFFFFF;
-    width: 751px;
-    height: 182px;
+}
+
+#Footer_Suscribe h1{
+    width: 750px;
+    max-width: 750px;
+    height: 180px;
+    max-height: 180px;
     font-weight: 700;
     font-size: 70px;
-    line-height: 91px;
+    line-height: 90px;
     text-transform: uppercase;
-  }
-  
-  #subscribe p{
-    width: 228px;
-    height: 21px;
+    color: #FFFFFF;
+}
+
+#Footer_Suscribe p{
+    width: 230px;
+    max-width: 308px;
+    height: 20px;
+    max-height: 20px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 20.8px;
+    line-height: 20px;
     color: #FFFFFF;
-    margin-top: 117px;
-  }
-  
-  #derecha{
+    margin-top: 34px;
+}
+
+#Footer_Derecha{
     margin-top: 180px;
     margin-left: 197px;
-  }
-  
-  #footerfinal{
+}
+
+#Menu_footer{
     display: flex;
-  }
-  
-  #footerfinal nav{
-    width: 384px;
-    max-width: 384px;
-    height: 99px;
-    max-height: 99px;
-  }
-  
-  #footerfinal nav h4{
-    color: #FFFFFF;
-    width: 99px;
-    height: 43px;
+}
+
+#Menu_footer > nav{
+    width: 390px;
+    max-width: 390px;
+    height: 100px;
+    max-height: 100px;
+}
+
+#Menu_footer > nav > h4{
+    width: 100px;
+    max-width: 100px;
+    height: 50px;
+    max-height: 50px;
     font-weight: 700;
     font-size: 24px;
-    line-height: 43.2px;
-  }
-  
-  #footerfinal nav ul{
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+#Menu_footer > nav > ul{
     width: 384px;
+    max-width: 384px;
     height: 32px;
+    max-height: 32px;
     display: flex;
     justify-content: space-between;
     padding: 0px;
     margin-top: 24px;
-  }
-  
-  #footerfinal nav ul li {
+}
+
+#Menu_footer > nav > ul > li {
     list-style: none;  
-  }
-  
-  #footerfinal > nav > ul a{
+}
+
+#Menu_footer > nav > ul a{
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
     text-decoration: none;
     color: #FFFFFF;
-  }
-  
-  #boton_desplegar{
+}
+
+#boton_subir{
+    transition: cursor 3s ease;
     width: 48px;
+    max-width: 48px;
     height: 48px;
+    max-height: 48px;
     border: 1px solid #FFFFFF;
     border-radius: 100px;
     display: flex;
@@ -940,78 +1043,77 @@ body{
     align-items: center;
     margin-top: 12px; 
     margin-left: 124px;
+}
+#boton_subir:hover{
     cursor: pointer;
-  }
-  
-  #footercontacto{
+}
+
+#Contacto_Footer{
     width: 222px;
     max-width: 222px;
     height: 134px;
     max-height: 134px;
-  
     margin-top: 33px;
-  }
-  
-  #footercontacto h4{
+}
+
+#Contacto_Footer > h4{
     width: 94px;
     max-width: 94px;
     height: 43px;
     max-height: 43px;
-  
     font-weight: 700;
     font-size: 24px;
     line-height: 43.2px;
-  
     color: #F8F5F0;
-  }
-  
-  #footercontacto a{
+}
+
+#Contacto_Footer > a{
     width: 176px;
     max-width: 176px;
     height: 21px;
     max-height: 21px;
-  
     font-weight: 400;
     font-size: 16px;
     line-height: 20.8px;
-  
     color: #FFFFFF;
     text-decoration: none;
-  }
-  #footercontacto a > p{
-  margin-top: 23.5px;
-  }
-  
-  #footerlogos{
+}
+#Contacto_Footer > a > p{
+margin-top: 23.5px;
+}
+
+#Logos_Footer{
     width: 213px;
+    max-width: 213px;
     height: 24px;
+    max-height: 24px;
     margin-top: 19px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  #Logos_Footer img{
+}
+
+#Logos_Footer img{
     width: 24px;
     max-width: 24px;
     height: 24px;
     max-height: 24px;
-  }
+}
 
-  #formulario{
+#General{
+    margin: 0 auto;
+}
+
+#FORMULARIO{
     position: absolute;
     z-index: 2;
     width: 1500px;
     height: 125px;
-
     background-color: #FFFFFF;
-
     margin-top: -63px;
     margin-left: 210px;
-
     display: flex;
     align-items: center;
-
     border: 0px;
     box-shadow: -10 10 20 #2D2D2D0D;
 }
@@ -1035,23 +1137,18 @@ body{
 .contenedor_formulario label{
     width: 77px;
     height: 19px;
-
     font-weight: 700;
     font-size: 16px;
     line-height: 19.36px;
-
     margin-left: 6px;
-
     color: #345E40;
 }
 
 .contenedor_formulario input,select{
     width: 140px;
     height: 19px;
-
     margin-top: 17px;
     border: 0px;
-
     font-weight: 600;
     font-size: 16px;
     line-height: 19.36px;
@@ -1074,17 +1171,13 @@ body{
 #formulario_principal button{
     width: 241px;
     height: 50px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     margin-top: 9px;
-
     background-color: #345E40;
     border: 1px solid #345E40;
     border-radius: 10px;
-
     color: #FFFFFF;
     font-weight: 700;
     font-size: 14px;
@@ -1098,7 +1191,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 #formuario_footer{
     width: 809px;
     height: 46px;
-
     margin-top: 37px;
 }
 
@@ -1149,4 +1241,53 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 #formuario_footer  input:focus{
     outline: none;
+}
+.news-title, #news-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #333;
+}
+.news-image, #news-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 1rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.news-content, #news-content {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    margin: 0 1rem;
+    text-align: justify;
+}
+
+.news-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.news-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
 }
