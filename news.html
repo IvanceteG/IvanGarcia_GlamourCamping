@@ -1,11 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Notícies</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module">
+        import bd from './bdnoticies.js';
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const newsContainer = document.getElementById('news-container');
+            bd.forEach(news => {
+                const newsItem = document.createElement('div');
+                newsItem.className = 'news-item';
+                newsItem.innerHTML = `
+                    <img src="${news.image}" alt="${news.title}">
+                    <h2>${news.title}</h2>
+                    <p>${news.content.substring(0, 100)}...</p>
+                    <a href="detallNoticia.html?id=${news.id}" class="read-more">Llegir més</a>
+                `;
+                newsContainer.appendChild(newsItem);
+            });
+        });
+    </script>
 </head>
 <body>
-    <h1>Noticies</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html" class="active">Notícies</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Notícies</h1>
+        <div id="news-container"></div>
+    </main>
+    <footer>
+        <p>Pàgina creada per: Iván García</p>
+    </footer>
+    <script type="module" src="./articles/bdnoticies.js"></script>
 </body>
 </html>
